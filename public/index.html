@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>circles</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/game.css">
+</head>
+
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div style="position:absolute; z-index:15; top:0%; left:10%; width:80%">
+        <form action="">
+            <input id="m" autocomplete="off" value="new player" style="width:80%; outline-width:0;"  /> 
+        </form>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="../socket.io/socket.io.js"></script>
+    <script src="js/requestAnimationFrame.js"></script>
+    <script src="js/Keys.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/game.js"></script>
+    <script>
+			// Initialise the game
+			init();
+			animate();
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+C:\Users\rory\Documents\Visual Studio 2013\WebSites\selcric\obj\Debug\selcric.njsprojResolveAssemblyReference.cache
+C:\Users\rory\Documents\Visual Studio 2013\WebSites\selcric\bin\Microsoft.NodejsTools.WebRole.dll
